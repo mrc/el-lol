@@ -1,0 +1,18 @@
+* Install
+#+begin_src elisp
+  (package-install-file "lol.el")
+#+end_src
+
+* Use
+#+begin_src elisp
+  (require lol.el)
+#+end_src
+
+Refer to Doug Hoyte's "Let Over Lambda" as documentation
+for these macros.
+
+* Test
+#+begin_example
+  M-x load-file test-lol.el
+  M-x ert-run-tests-interactively
+#+end_example
